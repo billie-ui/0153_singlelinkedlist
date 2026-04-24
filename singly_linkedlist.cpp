@@ -89,4 +89,7 @@ class linkedlist
             delete current;
             return true;
         }
-}
+    
+    void traverse ()
+    
+};
