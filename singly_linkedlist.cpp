@@ -156,3 +156,21 @@ int main()
                      << "Berhasil Dihapus" << endl;
             }
             break;
+
+            case '3' :
+            {
+                mhs.traverse();
+            }
+            break;
+            case '4':
+            {
+                if (mhs.listempty() == true)
+                {
+                    cout << "\nList Kosong\n";
+                    break;
+                }
+            }
+        }
+    }
+    
+}
