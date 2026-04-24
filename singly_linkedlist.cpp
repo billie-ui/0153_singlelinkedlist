@@ -109,3 +109,10 @@ class linkedlist
         }   
     }
 };
+
+int main()
+{
+    linkedlist mhs;
+    int nim;
+    char ch;
+    do
