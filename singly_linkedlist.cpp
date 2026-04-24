@@ -182,8 +182,17 @@ int main()
                      << "Data ditemukan" << endl;
                 cout << "\nNo Mahasiswa: " << current->noMhs << endl;
                 cout << "\n";
+             }
             }
-            }
+                break;
+                case '5':
+            {
+                }
+        break;
+        default:
+        {
+            cout << "Pilihan salah !." << endl;
+        }
         }
     }
 
