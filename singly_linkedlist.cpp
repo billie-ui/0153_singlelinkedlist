@@ -32,4 +32,15 @@ class linkedlist
                 {
                     cout << "\nDuplikasi noMhs tidak diizinkan\n";
                     return;
+                }
+                nodeBaru->next = START;
+                START = nodeBaru;
+                return;
+            }
+
+            Node *previous = START;
+            Node *current = START;
+            
+        }
+}
 
