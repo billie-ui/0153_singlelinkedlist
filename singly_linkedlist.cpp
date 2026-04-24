@@ -116,3 +116,17 @@ int main()
     int nim;
     char ch;
     do
+    {
+        cout << endl
+             << "Menu";
+        cout << endl
+             << "1. Menambah Data Kedalam list" << endl;
+        cout << "2. Menghapus Data dari dalam list" << endl;
+        cout << "3. Menampilkan semua data didalam list" << endl;
+        cout << "4. Menampilkan semua data didalam list secara terbalik" << endl;
+        cout << "5. Mencari data dalam list" << endl;
+        cout << "6. Keluar" << endl;
+        cout << endl
+             << "Masukkan pilihan (1-5) : ";
+        cin >> ch;
+        switch (ch)
